@@ -42,11 +42,9 @@ public class QuestSwitch001 {
                 System.out.println("Predikat Anda = B (Baik)");
             } else if (Ipk >= 2.50 && Ipk <= 2.99) {
                 System.out.println("Predikat Anda = BC (Cukup)");
-            } else if (Ipk < 2.50){
-                System.out.println("Predikat Anda = C (Kurang)");
             } else {
-                System.out.println("Perdikat mahasiswa tidak memenuhi syarat");
-            }
+                System.out.println("Predikat Anda = C (Kurang)");
+            } 
             
                 if (Ipk >= 3.75 || Ipk >= 3.50 && Ipk <= 3.74) {
                     System.out.println("Daftar Matkul yang dapat diajukan untuk posisi asisten:");
