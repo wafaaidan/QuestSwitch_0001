@@ -60,14 +60,14 @@ public class QuestSwitch001 {
                             if (StrukturData >= 75) {
                                 System.out.println("Selamat!!! Anda dinyatakan eligible untuk menjadi Asisten Dosen Pada Mata Kuliah Struktur Data");
                             } else {
-                                System.out.println("Mahasiswa belum memenuhi syarat untuk posisi tersebut");
+                                System.out.println("Mahasiswa belum memenuhi syarat untuk posisi Asisten Dosen Mata Kuliah tersebut");
                             }
                             break;
                         case 2:
                             if (PBO >= 75) {
                                 System.out.println("Selamat!!! Anda dinyatakan eligible untuk menjadi Asisten Dosen Pada Mata Kuliah Pemrograman Berorientasi Objek");
                             } else {
-                                System.out.println("Mahasiswa belum memenuhi syarat untuk posisi tersebut");
+                                System.out.println("Mahasiswa belum memenuhi syarat untuk posisi Asisten Dosen Mata Kuliah tersebut");
                             }
                             break;
                         
@@ -75,7 +75,7 @@ public class QuestSwitch001 {
                             if (BasDat >= 75) {
                                 System.out.println("Selamat!!! Anda dinyatakan eligible untuk menjadi Asisten Dosen Pada Mata Kuliah Basis Data");
                             } else {
-                                System.out.println("Mahasiswa belum memenuhi syarat untuk posisi tersebut");
+                                System.out.println("Mahasiswa belum memenuhi syarat untuk posisi Asisten Dosen Mata Kuliah tersebut");
                             }
                             break;
                         
@@ -83,7 +83,7 @@ public class QuestSwitch001 {
                             if (AlgoritmaPemrograman >= 75) {
                                 System.out.println("Selamat!!! Anda dinyatakan eligible untuk menjadi Asisten Dosen Pada Mata Kuliah Algoritma dan Pemrogramana");
                             } else {
-                                System.out.println("Mahasiswa belum memenuhi syarat untuk posisi tersebut");
+                                System.out.println("Mahasiswa belum memenuhi syarat untuk posisi Asisten Dosen Mata Kuliah tersebut");
                             }
                             break;
                         
@@ -91,7 +91,7 @@ public class QuestSwitch001 {
                             if (RPL >= 75) {
                                 System.out.println("Selamat!!! Anda dinyatakan eligible untuk menjadi Asisten Dosen Pada Mata Kuliah Rekayasa Perangkat Lunak");
                             } else {
-                                System.out.println("Mahasiswa belum memenuhi syarat untuk posisi tersebut");
+                                System.out.println("Mahasiswa belum memenuhi syarat untuk posisi Asisten Dosen");
                             }
                             break;
 
