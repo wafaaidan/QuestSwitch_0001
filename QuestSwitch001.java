@@ -41,15 +41,15 @@ public class QuestSwitch001 {
             } else if (Rerata < 2.50) {
                 System.out.println("Predikat Anda = C (Kurang)");
             }else {
-                System.out.println("Sebaiknya coba daftar lain waktu saja :)");
+                System.out.println("Mahasiswa belum memenuhi syarat");
             }
             
-            if (Rerata >= 3.75 || Rerata >= 30.5 && Rerata <= 3.74) {
-  
-            }
-            else{
-                System.out.println("Sebaiknya lain waktu saja :)");
-            }
+                if (Rerata >= 3.75 || Rerata >= 30.5 && Rerata <= 3.74) {
+    
+                }
+                else {
+                    System.out.println("Mahasiswa belum memenuhi syarat untuk posisi tersebut");
+                }
         } else {
             System.out.println("Maaf, Anda tidak memiliki akses");
         }
