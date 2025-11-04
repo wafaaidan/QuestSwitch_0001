@@ -28,7 +28,28 @@ public class QuestSwitch001 {
             RPL = MeinScan.nextDouble();
 
             Rerata = (StrukturData + PBO + BasDat + AlgoritmaPemrograman + RPL) / 5;
-            System.out.println("Nilai Rerata Matkul Anda adalah: " + Rerata);
+            System.out.println("IPK Anda adalah: " + Rerata);
+            
+            if(Rerata >= 3.75) {
+                System.out.println("Predikat Anda = A (Sangat Baik)");
+            } else if (Rerata >= 30.5 && Rerata <= 3.74) {
+                System.out.println("Predikat Anda = AB (Baik Sekali) ");
+            } else if (Rerata >= 3.00 && Rerata <= 3.49) {
+                System.out.println("Predikat Anda = B (Baik)");
+            } else if (Rerata >= 2.50 && Rerata <= 2.99) {
+                System.out.println("Predikat Anda = BC (Cukup)");
+            } else if (Rerata < 2.50) {
+                System.out.println("Predikat Anda = C (Kurang)");
+            }else {
+                System.out.println("Sebaiknya coba daftar lain waktu saja :)");
+            }
+            
+            if (Rerata >= 3.75 || Rerata >= 30.5 && Rerata <= 3.74) {
+  
+            }
+            else{
+                System.out.println("Sebaiknya lain waktu saja :)");
+            }
         } else {
             System.out.println("Maaf, Anda tidak memiliki akses");
         }
