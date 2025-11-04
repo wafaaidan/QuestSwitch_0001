@@ -32,7 +32,7 @@ public class QuestSwitch001 {
             
             if(Rerata >= 3.75) {
                 System.out.println("Predikat Anda = A (Sangat Baik)");
-            } else if (Rerata >= 30.5 && Rerata <= 3.74) {
+            } else if (Rerata >= 3.50 && Rerata <= 3.74) {
                 System.out.println("Predikat Anda = AB (Baik Sekali) ");
             } else if (Rerata >= 3.00 && Rerata <= 3.49) {
                 System.out.println("Predikat Anda = B (Baik)");
@@ -45,7 +45,22 @@ public class QuestSwitch001 {
             }
             
                 if (Rerata >= 3.75 || Rerata >= 30.5 && Rerata <= 3.74) {
-    
+                    System.out.println("Daftar Matkul yang dapat diajukan untuk posisi asisten:");
+                    System.out.println("1. Struktur Data");
+                    System.out.println("2. Pemrograman Berorientasi Objek");
+                    System.out.println("3. Basis Data ");
+                    System.out.println("4. Algoritma dan Pemrograman ");
+                    System.out.println("4. Rekayasa Perangkat Lunak  ");
+                    System.out.print("Masukkan Pilihan Anda: ");
+                    int opsi = MeinScan.nextInt();
+                    switch (opsi) {
+                        case 1:
+                            
+                            break;
+                    
+                        default:
+                            break;
+                    }
                 }
                 else {
                     System.out.println("Mahasiswa belum memenuhi syarat untuk posisi tersebut");
