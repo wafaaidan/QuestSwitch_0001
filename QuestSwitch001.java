@@ -13,7 +13,7 @@ public class QuestSwitch001 {
             //Basdat = Basis Data
             //RPL = Rekayasa Perangkat Lunak
             Double StrukturData, PBO, BasDat, AlgoritmaPemrograman, RPL;
-            Double Rerata;
+            Double Rerata, Ipk;
 
             System.out.println("Masukkan Data Nilai Matkul");
             System.out.println("1. Struktur Data                    :  ");
@@ -28,23 +28,25 @@ public class QuestSwitch001 {
             RPL = MeinScan.nextDouble();
 
             Rerata = (StrukturData + PBO + BasDat + AlgoritmaPemrograman + RPL) / 5;
-            System.out.println("IPK Anda adalah: " + Rerata);
+            System.out.println("Rerata Nilai Anda adalah: " + Rerata);
+            Ipk = (Rerata/20) - 1;
+            System.out.println("IPK Anda adalah: " + Ipk);
             
-            if(Rerata >= 3.75) {
+            if(Ipk >= 3.75) {
                 System.out.println("Predikat Anda = A (Sangat Baik)");
-            } else if (Rerata >= 3.50 && Rerata <= 3.74) {
+            } else if (Ipk >= 3.50 && Ipk <= 3.74) {
                 System.out.println("Predikat Anda = AB (Baik Sekali) ");
-            } else if (Rerata >= 3.00 && Rerata <= 3.49) {
+            } else if (Ipk >= 3.00 && Ipk <= 3.49) {
                 System.out.println("Predikat Anda = B (Baik)");
-            } else if (Rerata >= 2.50 && Rerata <= 2.99) {
+            } else if (Ipk >= 2.50 && Ipk <= 2.99) {
                 System.out.println("Predikat Anda = BC (Cukup)");
-            } else if (Rerata < 2.50) {
+            } else if (Ipk < 2.50) {
                 System.out.println("Predikat Anda = C (Kurang)");
             }else {
                 System.out.println("Mahasiswa belum memenuhi syarat");
             }
             
-                if (Rerata >= 3.75 || Rerata >= 30.5 && Rerata <= 3.74) {
+                if (Ipk >= 3.75 || Ipk >= 3.50 && Ipk <= 3.74) {
                     System.out.println("Daftar Matkul yang dapat diajukan untuk posisi asisten:");
                     System.out.println("1. Struktur Data");
                     System.out.println("2. Pemrograman Berorientasi Objek");
@@ -52,15 +54,8 @@ public class QuestSwitch001 {
                     System.out.println("4. Algoritma dan Pemrograman ");
                     System.out.println("4. Rekayasa Perangkat Lunak  ");
                     System.out.print("Masukkan Pilihan Anda: ");
-                    int opsi = MeinScan.nextInt();
-                    switch (opsi) {
-                        case 1:
-                            
-                            break;
                     
-                        default:
-                            break;
-                    }
+
                 }
                 else {
                     System.out.println("Mahasiswa belum memenuhi syarat untuk posisi tersebut");
