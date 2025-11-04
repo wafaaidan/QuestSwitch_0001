@@ -47,7 +47,7 @@ public class QuestSwitch001 {
             } 
             
                 if (Ipk >= 3.75 || Ipk >= 3.50 && Ipk <= 3.74) {
-                    System.out.println("Daftar Matkul yang dapat diajukan untuk posisi asisten:");
+                    System.out.println("Daftar Matkul yang dapat diajukan untuk posisi Asisten Dosen:");
                     System.out.println("1. Struktur Data");
                     System.out.println("2. Pemrograman Berorientasi Objek");
                     System.out.println("3. Basis Data ");
