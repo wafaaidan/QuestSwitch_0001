@@ -8,6 +8,10 @@ public class QuestSwitch001 {
         String confirm = MeinScan.nextLine();
 
         if(confirm.toLowerCase().equals("asdos25")) {
+            Double StrukturData, PBO, BasDat, AlgoritmaPemrograman, RPL;
+            Double Rerata;
+
+
         } else {
             System.out.println("Maaf, Anda tidak memiliki akses");
         }
