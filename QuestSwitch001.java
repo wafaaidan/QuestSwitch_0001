@@ -9,8 +9,10 @@ public class QuestSwitch001 {
 
         if(confirm.toLowerCase().equals("asdos25")) {
             //Keterangan :
+            //StrukturData = Struktur Data
             //PBO = Pemrograman Berorientasi Objek
             //Basdat = Basis Data
+            //AlgoritmaPemrograman = Algoritma & Pemrograman
             //RPL = Rekayasa Perangkat Lunak
             Double StrukturData, PBO, BasDat, AlgoritmaPemrograman, RPL;
             Double Rerata, Ipk;
